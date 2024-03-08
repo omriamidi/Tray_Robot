@@ -10,4 +10,5 @@ Design part 2:
 First prototype movement:
 https://github.com/omriamidi/Tray_Robot/assets/111886837/06a85225-4fa9-4378-849c-9fea8e9741ca
 
-First prototype movement 2:
+controlling the motors from web :
+https://github.com/omriamidi/Tray_Robot/assets/111886837/71a9671a-1bfe-48e1-b3d8-dba4adced129
