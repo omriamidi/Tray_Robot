@@ -22,7 +22,6 @@ int direction = 1;
 unsigned long lastServoChange = 0;
 int servoInterval = 50; // This defines how long it moves in each direction 
 
-
 void setup() {
   myServo.attach(SERVO_PIN, 45); 
   pinMode(PIN_IN1, OUTPUT);
@@ -37,7 +36,6 @@ void loop() {
   spin();
   linear();
 }
-
 
 void spin() {
   if (millis() - lastServoChange >= servoInterval) {
@@ -62,8 +60,6 @@ void spin() {
       }
   }
 }
-
-
 
 void linear() {
 
