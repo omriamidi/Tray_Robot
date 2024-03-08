@@ -1,21 +1,26 @@
+// version 2 explanation - 
+// The movement of the robot is carried out by control from the network.
+// The component I'm using now is an ESP32 that allows control by wifi, so make sure you connect to the component's network.
+// In this file, an HTML file is attached along with javascript, the purpose of which is to link the commands given through 
+// the network with the activation of the motors.
+
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
-//#include <Servo.h>
 #include <ESP32Servo.h>
 
 Servo myservo;
 Servo myservo2;
 
 int pos = 0;
-int pos2 = 0; // for new motor
+int pos2 = 0; 
 const char* ssid = "SHoSH";
 const char* password = "123456789";
 String state = "off";
 WebServer server(80);
 int servoDelay = 15; // Time delay for servo movement in milliseconds
 int targetPos = 0;
-int targetPos2 = 0; // for new motor
+int targetPos2 = 0; 
 unsigned long lastServoMoveTime = 0;
 
 void setup(void) {
@@ -48,21 +53,21 @@ void setup(void) {
     Serial.println("3");
     handleRoot();
   });
-  server.on("/4", []() { // adding for new motor
+  server.on("/4", []() { 
     targetPos2 = 0; 
     Serial.println("4");
     handleRoot(); 
-}); // includes all the above
+}); 
 
-server.on("/5", []() { // adding for new motor
+server.on("/5", []() { 
     targetPos2 = 180; 
     Serial.println("5");
     handleRoot();
-}); // includes all the above
+}); 
 
   server.onNotFound(handleNotFound);
     myservo.attach(13);
-    myservo2.attach(12); // adding for new motor
+    myservo2.attach(12); 
 
   server.begin();
   Serial.println("HTTP server started");
@@ -70,7 +75,7 @@ server.on("/5", []() { // adding for new motor
 
 void loop(void) {
   server.handleClient();
-  delay(2);//allow the cpu to switch to other tasks
+  delay(2); //allow the cpu to switch to other tasks
   moveServo();
 }
 
@@ -153,11 +158,8 @@ htmlContent += "        }\n";
 htmlContent += "    </script>\n";
 htmlContent += "</body>\n";
 htmlContent += "</html>";
-
-
   server.send(404, "text/html", htmlContent);
 }
-
 
 void handleNotFound() {
   String message = "File Not Found\n\n";
@@ -179,7 +181,7 @@ void moveServo() {
   if ((millis() - lastServoMoveTime >= servoDelay) && (pos != targetPos || pos2 != targetPos2)) {
     lastServoMoveTime = millis(); // Update the last time the servo moved - instead of using delay function!
 
-    if (pos != targetPos) { //adding for new motor
+    if (pos != targetPos) { 
       if(pos > targetPos){
         pos = pos - 1;
       }
@@ -189,17 +191,14 @@ void moveServo() {
       myservo.write(pos);
     }
 
-    if (pos2 != targetPos2) { //adding for new motor
+    if (pos2 != targetPos2) { 
       if (pos2 > targetPos2) {  
           pos2 = pos2 - 1; 
       }
       if (pos2 < targetPos2) {
           pos2 = pos2 + 1;
       }
-      myservo2.write(pos2); // includes all the above for the new motor
+      myservo2.write(pos2);
     }
   }
 }
-
-
-
