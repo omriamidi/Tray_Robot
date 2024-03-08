@@ -1,3 +1,9 @@
+// version 3 explanation -
+// In this version it was decided that there would be a rotary movement performed by one motor 
+// and a linear movement performed by a second motor.
+// In addition, to realistically illustrate a "serve" motion, I created a motion in which both motors work simultaneously. 
+// That is, rotary and linear movement at the same time.
+
 #include <ESP32Servo.h>
 #include <ServoEasing.hpp>
 
@@ -76,3 +82,7 @@ void linear() {
 
   analogWrite(PIN_ENA, 255);
 }
+
+// what's next?
+// In the fourth version I'm working on now, the control of the robot's movement (linear and rotary movement) will be via the web by wifi.
+// After version 4 is finished - we will start experiments with participants in the laboratory.
