@@ -1,3 +1,7 @@
+// Version 1 explanation -
+// The movement of the robot is carried out by buttons that are connected to the Arduino board.
+// There are several gestures that can be performed, with each gesture activated by a different button.
+
 #include <Servo.h>
 
 Servo myservo1;
@@ -9,7 +13,6 @@ const byte buttonPin1 = 1;
 const byte buttonPin2 = 2;
 const byte buttonPin3 = 3;
 int animationToPlay = 0;
-
 
 void setup() {
   Serial.begin(9600);
@@ -96,9 +99,6 @@ int pos = 70;
     goTo(pos, pos, 0);
     delay(300);
   }
-  // goTo(0,0,0);
-  //   delay(300);
-
 }
 
 void dance() {
@@ -121,14 +121,8 @@ void dance() {
   }
 }
 
-
 void goTo(int one, int two, int three) {
   myservo1.write(one);
   myservo2.write(two);
   myservo3.write(three);
-  // Serial.print(one);
-  // Serial.print(two);
-  // Serial.println(three);
-
-  //delay(20);
 }
