@@ -1,4 +1,8 @@
 # Tray_Robot
+
+As part of an academic research done in a technological laboratory at Reichman University, I am building and programming a tray-shaped robot designed to be an assistant to humans, to whom it serves objects of various shapes. The purpose of the research is to test the reaction of humans to the different serving styles that we create with the robot.
+
+
 https://github.com/omriamidi/Tray_Robot/assets/111886837/fef793fd-f950-4305-8951-bad9dd87a6fc
 
 design part 1:
