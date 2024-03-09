@@ -18,14 +18,14 @@ Overall design (version 1):
 
 
 
-Sample of movement:
+Sample of the robot's movement:
 
 ![IMG_7034 2](https://github.com/omriamidi/Tray_Robot/assets/111886837/41eb2fa6-c155-4d8f-ad12-bade5c7c4154)
 
 
 
 
-Controlling the robot via web :
+Controlling the robot motors via web:
 
 ![IMG_7034 2 (1)](https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790)
 
