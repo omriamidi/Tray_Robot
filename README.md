@@ -1,6 +1,6 @@
 # Tray Robot
 
-Background -
+## Background -
 
 As part of an academic research done in a technological laboratory at Reichman University, I am building and programming a tray-shaped robot designed to be an assistant to humans, to whom it serves objects of various shapes. The purpose of the research is to test the reaction of humans to the different serving styles that we create with the robot.
 
