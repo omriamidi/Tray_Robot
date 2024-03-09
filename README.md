@@ -20,14 +20,14 @@ A surface on which 3 motors are placed, where each motor is connected to an arm 
 </p>
 
 
-### Sample of the robot's movement:
+### Sample of the robot's movement (version 1):
 
 <p align="center">
 <img src="https://github.com/omriamidi/Tray_Robot/assets/111886837/41eb2fa6-c155-4d8f-ad12-bade5c7c4154">
 </p>
 
 
-### Controlling the robot motors via web:
+### Controlling the robot motors via web (version 2):
 
 <p align="center">
 <img src="https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790">
