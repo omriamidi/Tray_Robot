@@ -8,8 +8,9 @@ Design of the lower part (versoin 1):
 
 A surface on which 3 motors are placed, where each motor is connected to an arm with the ability to move freely. The top of the tray is attached by magnets to the 3 arms.
 
+<p align="center">
 <img width="588" alt="צילום מסך 2024-03-09 ב-16 10 22" src="https://github.com/omriamidi/Tray_Robot/assets/111886837/d0619e66-810a-4f10-b1bc-1dc070ad5f70">
-
+</p>
 
 
 Overall design (version 1):
