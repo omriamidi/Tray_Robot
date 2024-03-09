@@ -27,7 +27,8 @@ Sample of movement:
 
 Controlling the robot via web :
 
-https://github.com/omriamidi/Tray_Robot/assets/111886837/71a9671a-1bfe-48e1-b3d8-dba4adced129
+![IMG_7034 2 (1)](https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790)
+
 
 
 Note -
