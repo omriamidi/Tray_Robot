@@ -21,7 +21,7 @@ Overall design (version 1):
 
 
 Sample of the robot's movement:
-![IMG_7034 2]
+
 <p align="center">
 <img src="https://github.com/omriamidi/Tray_Robot/assets/111886837/41eb2fa6-c155-4d8f-ad12-bade5c7c4154">
 </p>
@@ -30,7 +30,7 @@ Sample of the robot's movement:
 Controlling the robot motors via web:
 
 <p align="center">
-![IMG_7034 2 (1)](https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790)
+<img src="https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790">
 </p>
 
 
