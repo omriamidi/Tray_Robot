@@ -20,7 +20,7 @@ Overall design (version 1):
 
 Sample of movement:
 
-https://www.veed.io/view/6bc717f1-27dc-4fcc-bc9e-0c92bc43db9a?panel=share
+https://www.veed.io/view/6bc717f1-27dc-4fcc-bc9e-0c92bc43db9a
 
 
 
