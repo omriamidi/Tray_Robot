@@ -20,7 +20,7 @@ Overall design (version 1):
 
 Sample of movement:
 
-https://github.com/omriamidi/Tray_Robot/assets/111886837/06a85225-4fa9-4378-849c-9fea8e9741ca
+https://www.veed.io/view/6bc717f1-27dc-4fcc-bc9e-0c92bc43db9a?panel=share
 
 
 
