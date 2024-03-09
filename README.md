@@ -15,21 +15,23 @@ A surface on which 3 motors are placed, where each motor is connected to an arm 
 
 Overall design (version 1):
 
+<p align="center">
 <img width="472" alt="צילום מסך 2024-03-09 ב-16 11 34" src="https://github.com/omriamidi/Tray_Robot/assets/111886837/42e218e5-d272-43fa-aacf-12b284346635">
-
+</p>
 
 
 Sample of the robot's movement:
 
+<p align="center">
 ![IMG_7034 2](https://github.com/omriamidi/Tray_Robot/assets/111886837/41eb2fa6-c155-4d8f-ad12-bade5c7c4154)
-
-
+</p>
 
 
 Controlling the robot motors via web:
 
+<p align="center">
 ![IMG_7034 2 (1)](https://github.com/omriamidi/Tray_Robot/assets/111886837/36ec05bd-661e-4d92-b01a-0d0f823e2790)
-
+</p>
 
 
 Note -
