@@ -20,7 +20,8 @@ Overall design (version 1):
 
 Sample of movement:
 
-https://www.veed.io/view/6bc717f1-27dc-4fcc-bc9e-0c92bc43db9a
+![IMG_7034 2](https://github.com/omriamidi/Tray_Robot/assets/111886837/41eb2fa6-c155-4d8f-ad12-bade5c7c4154)
+
 
 
 
