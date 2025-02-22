@@ -34,5 +34,9 @@ A surface on which 3 motors are placed, where each motor is connected to an arm 
 </p>
 
 
-Note -
-Since I am still in the process of developing the software for version 4 of the robot, the new design of the robot (including rotary and linear motion) has not yet been implemented, so there are no pictures illustrating the motion.
+### Last and Final version (version 4):
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0be027d3-b118-485e-b2cb-3b6fc6c66629">
+</p>
+
