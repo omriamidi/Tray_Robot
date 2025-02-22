@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
-//#include <Servo.h>
 #include <ESP32Servo.h>
 
 Servo myservo;
@@ -296,40 +295,3 @@ void moveServo() {
     }
   }
 }
-
-// void moveServo() {
-//   // Check if it's time to move the servo again
-//   if ((millis() - lastServoMoveTime >= servoDelay) && (pos != targetPos || pos2 != targetPos2 || pos3 != targetPos3)) {
-//     lastServoMoveTime = millis(); // Update the last time the servo moved - instead of using delay function!
-
-//     if (pos != targetPos) { //adding for new motor
-//       if(pos > targetPos){
-//         pos = pos - 1;
-//       }
-//       if(pos < targetPos){
-//         pos = pos + 1;
-//       }
-//       myservo.write(pos);
-//     }
-
-//     if (pos2 != targetPos2) { //adding for new motor
-//       if (pos2 > targetPos2) {  
-//           pos2 = pos2 - 1; 
-//       }
-//       if (pos2 < targetPos2) {
-//           pos2 = pos2 + 1;
-//       }
-//       myservo2.write(pos2); // includes all the above for the new motor
-//     }
-
-//     if (pos3 != targetPos3) { //adding for new motor
-//       if (pos3 > targetPos3) {  
-//           pos3 = pos3 - 1; 
-//       }
-//       if (pos3 < targetPos3) {
-//           pos3 = pos3 + 1;
-//       }
-//       myservo3.write(pos3); // includes all the above for the new motor
-//     }
-//   }
-// }
