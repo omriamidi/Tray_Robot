@@ -1,3 +1,7 @@
+// Version 4 explanation 
+// This is the final version! :) 
+// Here you can check all the gestures and UI code - with it you can control the robot by buttons
+
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>
