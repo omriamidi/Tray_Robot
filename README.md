@@ -34,7 +34,14 @@ A surface on which 3 motors are placed, where each motor is connected to an arm 
 </p>
 
 
-### Last and Final version (version 4):
+### Last and Final Tests for final version (version 4):
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0be027d3-b118-485e-b2cb-3b6fc6c66629">
+</p>
+
+
+### Version 5:
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0be027d3-b118-485e-b2cb-3b6fc6c66629">
