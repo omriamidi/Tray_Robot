@@ -47,3 +47,10 @@ A surface on which 3 motors are placed, where each motor is connected to an arm 
 <img src="387DCDED-F65E-4B97-A196-6F6B0FC5F6EE 2.JPG">
 </p>
 
+<p align="center">
+<img src="387DCDED-F65E-4B97-A196-6F6B0FC5F6EE 2.JPG">
+</p>
+
+<p align="center">
+<img src="906AE2DE-6D0C-4E0B-AB41-5DB39D25C8F4.JPG">
+</p>
